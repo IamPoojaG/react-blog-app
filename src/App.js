@@ -1,11 +1,11 @@
 import './App.css';
-import Topbar from './components/topbar/Topbar';
-import Homepage from './pages/homepage/Homepage';
-import Login from './pages/login/Login';
-import Register from './pages/register/Register';
-import Settings from './pages/settings/Settings';
-import Single from './pages/single/Single';
-import Write from './pages/write/Write';
+import Topbar from './components/topbar/Topbar.js';
+import Homepage from './pages/homepage/Homepage.js';
+import Login from './pages/login/Login.js';
+import Register from './pages/register/Register.js';
+import Settings from './pages/settings/Settings.js';
+import Single from './pages/single/Single.js';
+import Write from './pages/write/Write.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
